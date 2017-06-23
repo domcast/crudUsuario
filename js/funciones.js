@@ -5,8 +5,6 @@ $(document).ready(function(){
 	$("#btnAgregar").click(function(){		
 	 	var nombre=$('#nombre').val();
 	 	var usuario=$('#usuario').val();
-
-	 	
 	 	var apellido=$('#apellido').val();
 	 	var contra=$('#contra').val();
 	 	var btnAgregar=$('#btnAgregar').val();
