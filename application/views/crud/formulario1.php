@@ -2,7 +2,7 @@
 		<div class="col-md-1"></div>
 		<div class="col-md-10">
 			<table class="table table-bordered table-hover">
-				<tr>
+				<tr class="info">
 					<th>nombre</th>
 					<th>apellido</th>
 					<th>usuario</th>

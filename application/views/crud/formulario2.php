@@ -47,7 +47,7 @@
 			<div id="frmTabla">
 
         <table class="table table-striped table-hover" id="tabla">
-        <tr>
+        <tr class="danger">
           <th>id</th>
           <th>nombre</th>
           <th>apellido</th>

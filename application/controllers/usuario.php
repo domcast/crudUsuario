@@ -50,9 +50,7 @@ class Usuario extends CI_Controller {
         	$usuario = $this->input->post('usuario');
         	$contra = $this->input->post('contra'); 
         	$contraE=md5($contra);
-        	$this->usuario_model->modificar($id,$nombre, $apellido, $usuario, $contraE);
-        	
-			
+        	$this->usuario_model->modificar($id,$nombre, $apellido, $usuario, $contraE);  	
 		}
 		$respuesta=$this->respuesta();	
 			return $respuesta;			
